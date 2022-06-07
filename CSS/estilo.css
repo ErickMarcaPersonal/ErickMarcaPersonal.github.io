@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kdam+Thmor+Pro&family=Roboto+Mono:wght@300&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kdam+Thmor+Pro&family=Montserrat:wght@600&family=Roboto+Mono:wght@300&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kdam+Thmor+Pro&family=Montserrat:wght@600&family=Nunito&family=Roboto+Mono:wght@300&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kdam+Thmor+Pro&family=Montserrat:wght@600&family=Nunito:wght@800&family=Roboto+Mono:wght@300&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+body {
+    background-color: #0e0e0e;
+    background-image: url(../imagenes/morro.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position-x: 600px;
+    background-position-y: 837px;
+
+}
+
+h1 {
+    color: aliceblue;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 8px 3px black;
+}
+
+h2 {
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    text-shadow: 0px 2.5px black;
+    top: 125px;
+    left: 37%;
+}
+
+header {
+    background-color: #292929;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 150px;
+    background-image: url(../imagenes/diluido3.jpg);
+    background-size: 100%;
+    box-shadow: inset 0 0 50px #000000;
+    backdrop-filter: blur(4px);
+
+
+}
+
+nav {
+    background-color: #383838;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: inset 0 0 50px #000000;
+    backdrop-filter: blur(4px);
+
+}
+
+#lista {
+    text-align: center;
+    display: inline-block;
+
+
+
+}
+
+li {
+    color: rgb(0, 255, 21);
+    display: inline;
+    font-family: 'Nunito', sans-serif;
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 16px;
+    padding-right: 125px;
+    padding-left: 125px;
+    border-radius: 5px;
+    box-shadow: inset 0 0 25px rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    font-size: 16px;
+
+}
+
+li:hover {
+    color: #008807;
+    background-color: #e0bf00;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    transform: scale(10);
+    transition: 0.1s;
+}
+
+div {}
+
+#Home {
+    background-color: #480064ad;
+    width: 1000px;
+    height: 500px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    backdrop-filter: blur(4px);
+
+}
+
+#titulo1 {
+    filter: blur(0px);
+    display: block;
+    padding-top: 12%;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 100px;
+
+}
+
+section {
+    margin-top: 100px;
+    background-color: #77000000;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+
+}
+
+#cajauno {
+    margin-top: 100px;
+    margin-left: 165px;
+    margin-right: auto;
+    background-color: #b6b3b370;
+    width: 45%;
+    height: 400px;
+    border-radius: 10px;
+    filter: blur(0px);
+    border: 1px black;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    backdrop-filter: blur(4px);
+
+}
+
+#contacto {
+    margin-top: -380px;
+    margin-left: 800px;
+    margin-right: auto;
+    background-color: #b6b3b370;
+    width: 203px;
+    height: 400px;
+    border-radius: 10px;
+    filter: blur(0px);
+    border: 1px black;
+    box-shadow: inset 0 0 100px rgba(255, 255, 255, .5);
+    backdrop-filter: blur(4px);
+}
+
+#conta {
+    font-size: 30px;
+    position: static;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#infodos {
+    filter: blur(0px);
+    font-size: 11px;
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+    color: aliceblue;
+    text-shadow: 0px 2.5px black;
+    padding-top: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 30px;
+    display: inline-block;
+}
+
+#info {
+    filter: blur(0px);
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+    color: aliceblue;
+    text-shadow: 0px 2.5px black;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+#Sobremi {
+    font-size: 50px;
+    position: static;
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+#cajados {
+    margin-top: 100px;
+    margin-left: 0px;
+    margin-right: auto;
+    background-color: #480064ad;
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    filter: blur(0px);
+    border: 1px black;
+    box-shadow: inset 0 0 100px rgba(255, 255, 255, .5);
+    backdrop-filter: blur(4px);
+}
+
+#logost {
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 90px;
+    position: static;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#cajatres {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #b6b3b370;
+    width: 1000px;
+    height: 500px;
+    border-radius: 10px;
+    filter: blur(0px);
+    border: 1px black;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    backdrop-filter: blur(4px);
+}
+
+#cajacua {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #b6b3b370;
+    width: 1000px;
+    height: 500px;
+    border-radius: 10px;
+    filter: blur(0px);
+    border: 1px black;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    backdrop-filter: blur(4px);
+}
+
+#cajasin {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #b6b3b370;
+    width: 1000px;
+    height: 500px;
+    border-radius: 10px;
+    filter: blur(0px);
+    border: 1px black;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    backdrop-filter: blur(4px);
+}
+
+#subcaja {
+    width: 300px;
+    height: 50px;
+
+}
+
+#cholo {
+    font-size: 20px;
+    text-align: left;
+    text-shadow: 0px 2px black;
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    padding: 10px;
+    background-color: #770000;
+    border-top-left-radius: 10px;
+}
+
+#street {
+    font-size: 20px;
+    text-align: left;
+    text-shadow: 0px 2px black;
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    padding: 10px;
+    background-color: #ff02c0;
+    border-top-left-radius: 10px;
+}
+
+#japa {
+    font-size: 20px;
+    text-align: left;
+    text-shadow: 0px 2px black;
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    padding: 10px;
+    background-color: #1600d8;
+    border-top-left-radius: 10px;
+}
+
+#cajaseis {
+    margin-top: 1850px;
+    margin-left: 0px;
+    margin-right: auto;
+    background-color: #480064ad;
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    filter: blur(0px);
+    border: 1px black;
+    box-shadow: inset 0 0 100px rgba(255, 255, 255, .5);
+    backdrop-filter: blur(4px);
+}
+
+#ilu {
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 90px;
+    position: static;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#cajasiete {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #b6b3b370;
+    width: 1000px;
+    height: 500px;
+    border-radius: 10px;
+    filter: blur(0px);
+    border: 1px black;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    backdrop-filter: blur(4px);
+}
+
+#subcajados {
+    width: 300px;
+    height: 50px;
+}
+
+#ojo {
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 0px 2px black;
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    padding: 10px;
+    background-color: #000000;
+    border-top-left-radius: 10px;
+}
+
+#cajaocho {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #b6b3b370;
+    width: 1000px;
+    height: 500px;
+    border-radius: 10px;
+    filter: blur(0px);
+    border: 1px black;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    backdrop-filter: blur(4px);
+}
+
+#calaca {
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 0px 2px black;
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    padding: 10px;
+    background-color: #b90000;
+    border-top-left-radius: 10px;
+}
+
+#cajanueve {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #b6b3b370;
+    width: 1000px;
+    height: 500px;
+    border-radius: 10px;
+    filter: blur(0px);
+    border: 1px black;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    backdrop-filter: blur(4px);
+}
+
+#bad {
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 0px 2px black;
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    padding: 10px;
+    background-color: #008807;
+    border-top-left-radius: 10px;
+}
+
+#cajadiez {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #b6b3b370;
+    width: 1000px;
+    height: 500px;
+    border-radius: 10px;
+    filter: blur(0px);
+    border: 1px black;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    backdrop-filter: blur(4px);
+}
+
+#thug {
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 0px 2px rgb(245, 245, 245);
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    background-color: #ffffff;
+    border-top-left-radius: 10px;
+}
+
+footer {
+    left: 0px;
+    top: 6100px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #480064ad;
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 80px;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    backdrop-filter: blur(4px);
+}
+
+#redes {
+    background-color: #1600d8;
+    width: auto;
+    height: auto;
+}
